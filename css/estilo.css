@@ -1,0 +1,29 @@
+/* exibição e envio de foto do usuario */
+#shell{
+	width: 130px;
+	border: 1px solid;
+}
+#div{
+	width: 130px;
+	height: 130px;
+	display: block;
+	overflow: hidden;
+}
+#input{
+	font-size: 110px;
+	opacity:0;
+}
+#img{
+	position: relative;
+	top: -130px;
+	z-index: -1
+}
+
+
+
+#lblArquivo{
+	display: block;
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid;
+}
